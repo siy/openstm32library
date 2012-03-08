@@ -1,0 +1,23 @@
+This repository is aimed to contain various libraries for OpenSTM32 project 
+(see https://github.com/gbulmer/openstm32sw and https://github.com/gbulmer/openstm32hw)
+
+General approach to repository layout:
+
+Top level subdirectories:
+
+\- human-interface                     <- Everything related to LCD/OLED/TFT/LED displays, keyboards, etc.
+\- networking-communication-navigation <- Ethernet, Wi-Fi, GSM, GPS, BT, ZigBee, RF, etc.
+\- sensors-conversion                  <- Everything related to sensors (temperature, humidity, acceleration, etc.) and DAC/ADC.
+\- control                             <- All things related to power control/lighting/motors/etc.)
+\- algorithms                          <- Useful general purpose code, statistics, signal processing, control algorithms (such as PID), etc.
+
+Suggested library layout:
+
+\- <top level directory>
+   \- <chip/module/board/algorithm name>
+     \- wirish       <- class, header and other stuff necessary to enable use of library in Maple IDE (optional for non-wiring libraries)
+     \- examples     <- optional examples for library
+     \- hardware     <- optional hardware designs (breakout boards, etc.)
+     \- src          <- library sources (optional, but suggested for general purpose algorithms and non-wiring libraries)
+     README          <- library README
+
