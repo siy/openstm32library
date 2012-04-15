@@ -1,0 +1,5 @@
+This version of the library is tested with JDT-1800 1.8" SPI display purchased at eBay.
+Same display can be found at Adafruit shop.
+
+The library is a siginificantly modified version of ST7735 library from 
+Adafruit: https://github.com/adafruit/Adafruit-ST7735-Library

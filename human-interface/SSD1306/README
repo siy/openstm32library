@@ -1,0 +1,7 @@
+This version of the library is tested with SSD1306 controller installed in 
+monochrome COG OLED 128x64 display UG-2864HSWEG01. You can find this display
+at eBay from several sellers. You also can find this display in the monochrome 
+128x64 OLED display from Adafruit.
+
+The library is a siginificantly modified version of SSD1306 library from 
+Adafruit: https://github.com/adafruit/Adafruit_SSD1306

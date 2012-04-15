@@ -1,0 +1,6 @@
+Simple breakout board for the UG-2864HSWEG01 display. Since STM32F1/2/4 series are 3.3V devices,
+no additional voltage level shifting is required. Note that no connectors/adapters for display
+are required, display is designed for direct soldering to PCB.
+
+The design is Copyright (C) 2011-2012 Sergiy Yevtushenko and is covered by
+CC BY-SA license version 3.0 (http://creativecommons.org/licenses/by-sa/3.0/).
